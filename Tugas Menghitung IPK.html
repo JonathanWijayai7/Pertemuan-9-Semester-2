@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menghitung IPK</title>
+  </head>
+  <body>
+    <div class="row text-center">
+      <h1>Pertitungan IPK SEMESTER 1</h1>
+    </div>
+    <div align="left">
+      <p>
+        Nama : Jonathan Wijaya <br />
+        NIM : 20210121005 <br />
+        Prodi : Sistem Informasi
+      </p>
+    </div>
+    <p>
+      <script language="JavaScript">
+        document.writeln("<PRE>");
+        document.writeln("<H3>Mata Kuliah Algoritma</H3>");
+        var Aalgo = 80;
+        var Balgo = 80;
+        var Calgo = 12;
+        var Dalgo = 86;
+        var Ealgo = Aalgo * 0.3 + Balgo * 0.4 + (Calgo - 4) * 10 * 0.2 + Dalgo * 0.1;
+        document.writeln("Nilai UTS             = " + Aalgo);
+        document.writeln("Nilai UAS             = " + Balgo);
+        document.writeln("Kehadiran             = " + Calgo);
+        document.writeln("Tugas                 = " + Dalgo);
+        document.writeln("Nilai Mata Kuliah     = " + Ealgo);
+        document.writeln("<H3>Mata Kuliah General English</H3>");
+        var Aeng = 95;
+        var Beng = 100;
+        var Ceng = 12;
+        var Deng = 88;
+        var Eeng = Aeng * 0.3 + Beng * 0.4 + (Ceng - 4) * 10 * 0.2 + Deng * 0.1;
+        document.writeln("Nilai UTS             = " + Aeng);
+        document.writeln("Nilai UAS             = " + Beng);
+        document.writeln("Kehadiran             = " + Ceng);
+        document.writeln("Tugas                 = " + Deng);
+        document.writeln("Nilai Mata Kuliah     = " + Eeng);
+        document.writeln("<H3>Mata Kuliah Sistem dan teknologi informasi</H3>");
+        var Asis = 95;
+        var Bsis = 95;
+        var Csis = 14;
+        var Dsis = 86;
+        var Esis = Asis * 0.3 + Bsis * 0.4 + (Csis - 4) * 10 * 0.2 + Dsis * 0.1;
+        document.writeln("Nilai UTS             = " + Asis);
+        document.writeln("Nilai UAS             = " + Bsis);
+        document.writeln("Kehadiran             = " + Csis);
+        document.writeln("Tugas                 = " + Dsis);
+        document.writeln("Nilai Mata Kuliah     = " + Esis);
+        document.writeln("<H3>Mata Kuliah Pancasila dan Kewarganegaraan</H3>");
+        var Apkn = 98;
+        var Bpkn = 88;
+        var Cpkn = 14;
+        var Dpkn = 90;
+        var Epkn = Apkn * 0.3 + Bpkn * 0.4 + (Cpkn - 4) * 10 * 0.2 + Dpkn * 0.1;
+        document.writeln("Nilai UTS             = " + Apkn);
+        document.writeln("Nilai UAS             = " + Bpkn);
+        document.writeln("Kehadiran             = " + Cpkn);
+        document.writeln("Tugas                 = " + Dpkn);
+        document.writeln("Nilai Mata Kuliah     = " + Epkn);
+        document.writeln("<H3>Mata Kuliah Matematika Bisnis</H3>");
+        var Ambs = 85;
+        var Bmbs = 90;
+        var Cmbs = 12;
+        var Dmbs = 88;
+        var Embs = Ambs * 0.3 + Bmbs * 0.4 + (Cmbs - 4) * 10 * 0.2 + Dmbs * 0.1;
+        document.writeln("Nilai UTS             = " + Ambs);
+        document.writeln("Nilai UAS             = " + Bmbs);
+        document.writeln("Kehadiran             = " + Cmbs);
+        document.writeln("Tugas                 = " + Dmbs);
+        document.writeln("Nilai Mata Kuliah     = " + Embs);
+        document.writeln("<H3>Mata Kuliah Manajemen dan organisasi</H3>");
+        var Amnjo = 89;
+        var Bmnjo = 87;
+        var Cmnjo = 14;
+        var Dmnjo = 88;
+        var Emnjo = Ambs * 0.3 + Bmbs * 0.4 + (Cmbs - 4) * 10 * 0.2 + Dmbs * 0.1;
+        document.writeln("Nilai UTS             = " + Amnjo);
+        document.writeln("Nilai UAS             = " + Bmnjo);
+        document.writeln("Kehadiran             = " + Cmnjo);
+        document.writeln("Tugas                 = " + Dmnjo);
+        document.writeln("Nilai Mata Kuliah     = " + Emnjo);
+        document.writeln("<H3>Mata Kuliah Pembangunan karakter & Etika Profesi</H3>");
+        var Apbep = 100;
+        var Bpbep = 95;
+        var Cpbep = 12;
+        var Dpbep = 90;
+        var Epbep = Apbep * 0.3 + Bpbep * 0.4 + (Cpbep - 4) * 10 * 0.2 + Dpbep * 0.1;
+        document.writeln("Nilai UTS             = " + Apbep);
+        document.writeln("Nilai UAS             = " + Bpbep);
+        document.writeln("Kehadiran             = " + Cpbep);
+        document.writeln("Tugas                 = " + Dpbep);
+        document.writeln("Nilai Mata Kuliah     = " + Epbep);
+
+        var IPK = (Ealgo + Eeng + Embs + Emnjo + Esis + Epkn + Epbep) / 175;
+
+        document.writeln("<H1>Nilai IPK Mahasiswa ini :</H1>");
+        document.writeln("Nilai IPK     : " + IPK);
+        if (IPK >= 4.0) {
+          alert("Nilai IPK = A");
+        } else if (IPK >= 3.0 && x < 4.0) {
+          alert("Nilai IPK = B");
+        } else if (IPK >= 2.0 && x < 3.0) {
+          alert("Nilai IPK= C");
+        } else {
+          alert("Nilai IPK= D");
+        }
+        document.writeln("<PRE>");
+      </script>
+      <script language="JavaScript"></script>
+    </p>
+  </body>
+</html>
